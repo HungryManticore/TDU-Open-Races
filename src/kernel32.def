@@ -1,0 +1,13 @@
+LIBRARY kernel32.dll
+EXPORTS
+VirtualProtect@16
+GetCurrentProcess@0
+FlushInstructionCache@12
+GetModuleFileNameA@12
+DisableThreadLibraryCalls@4
+GetPrivateProfileIntA@16
+CreateFileA@28
+WriteFile@20
+CloseHandle@4
+SetFilePointer@16
+IsBadReadPtr@8
