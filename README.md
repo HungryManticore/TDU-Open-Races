@@ -7,8 +7,6 @@ An `.asi` plugin for **Test Drive Unlimited** (PC). For any challenge you have *
 
 Challenges you haven't won are left untouched.
 
-> ⚠️ Built from static reverse engineering of the executable and **not yet tested in-game**. If something goes wrong, the log file (below) shows what the plugin saw and did.
-
 ## Target executable
 
 The plugin only supports this exact build. It verifies the code at every hook site at startup and disables itself if anything differs.
@@ -64,3 +62,7 @@ All addresses are for the exe listed above.
   - the per-car check `0x75D4E0`
   - AI opponent setup `0x73CD90`
 - **Opponents:** setting `IAVT` = 1 or 2 and `IAS0` = 3 (single class) makes the game's own picker (`0x73C9A0`) choose random AI-capable vehicles of that class.
+
+## AI disclosure
+
+Project was made in Claude and tested personally.
